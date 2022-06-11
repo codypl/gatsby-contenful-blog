@@ -1,0 +1,75 @@
+{
+  "name": "aurorbe",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Aurorbe",
+  "author": "Cody",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "dev": "gatsby clean && gatsby develop",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@contentful/rich-text-react-renderer": "^15.12.1",
+    "@headlessui/react": "^1.5.0",
+    "@heroicons/react": "^1.0.6",
+    "babel-plugin-styled-components": "^2.0.7",
+    "color": "^4.2.3",
+    "gatsby": "^4.12.1",
+    "gatsby-plugin-image": "^2.12.1",
+    "gatsby-plugin-manifest": "^4.12.1",
+    "gatsby-plugin-react-helmet": "^5.12.1",
+    "gatsby-plugin-sass": "^5.12.1",
+    "gatsby-plugin-sharp": "^4.12.1",
+    "gatsby-plugin-sitemap": "^5.12.1",
+    "gatsby-plugin-styled-components": "^5.12.1",
+    "gatsby-source-contentful": "^7.10.1",
+    "gatsby-source-filesystem": "^4.12.1",
+    "gatsby-transformer-sharp": "^4.12.1",
+    "nord": "^0.2.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-helmet": "^6.1.0",
+    "sass": "^1.50.1",
+    "styled-components": "^5.3.5",
+    "tailwindcss": "^3.1.2",
+    "tailwindcss-font-inter": "^3.0.1",
+
+    "async": "^3.2.2",
+    "moment": "^2.29.3",
+    "ansi-html": "^0.0.9",
+    "browserslist": "^4.20.2",
+    "ws": "^8.5.0",
+    "immer": "^9.0.12",
+    "nth-check": "^2.0.1",
+    "node-fetch": "^2.6.1"
+  },
+  "resolutions": {
+    "ansi-regex": "^6.0.1",
+    "object-path": "^0.11.8"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.4",
+    "gatsby-plugin-postcss": "^5.12.1",
+    "postcss": "^8.4.12",
+    "tailwindcss": "^3.0.24",
+    "tailwindcss-font-inter": "^3.0.1"
+  },
+  "overrides": {
+    "async": "$async",
+    "moment": "$moment",
+    "ansi-html": "$ansi-html",
+    "browserslist": "$browserslist",
+    "ws": "$ws",
+    "immer": "$immer",
+    "nth-check": "$nth-check",
+    "node-fetch": "$node-fetch"
+
+  }
+}
